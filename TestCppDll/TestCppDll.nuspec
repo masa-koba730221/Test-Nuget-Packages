@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>TestCppDll</id>
+    <version>1.0.0</version>
+    <title>TestCppDll</title>
+    <authors>Kobama</authors>
+    <owners>Kobama</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Test cpp dll</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>Kobama</tags>
+  </metadata>
+  <files>
+    <file src="..\Debug\TestCppDll.dll" target="content/netstandard2.0\TestCppDllA.dll" />
+    <file src="TestCppDll_netst20.targets" target="build\netstandard2.0\TestCppDll.targets" />
+    <file src="..\Debug\TestCppDll.dll" target="content/net461\TestCppDllB.dll" />
+    <file src="TestCppDll_net641.targets" target="build\net461\TestCppDll.targets" />
+    <file src="..\Debug\TestCppDll.dll" target="content/net45\TestCppDllC.dll" />
+  </files>
+</package>
